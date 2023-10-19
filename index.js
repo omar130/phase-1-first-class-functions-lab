@@ -1,5 +1,7 @@
 // Code your solution in this file!
 
+
+
 const returnFirstTwoDrivers = function(drivers) {
 
   return drivers.slice(0,2);
@@ -39,11 +41,13 @@ const fareTripler = function createFareMultiplier(num){
 
 
 
-function selectDifferentDrivers(arrayOfDrivers, returnFirstTwoDrivers){
 
-  return arrayOfDrivers;
-
-}
+const arrayOfDrivers = drivers
 
 
-//selectDifferentDrivers(drivers, returnfirstTwoDrivers)
+function selectDifferentDrivers(arrayOfDrivers, callback) {
+
+return callback(arrayOfDrivers)
+  
+};
+ 
